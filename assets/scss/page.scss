@@ -1,0 +1,59 @@
+.wrapper{
+  .main{
+    header{
+      background-image: url("../img/hedaderbg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 48px 0 20px;
+    }
+    .section_text{
+
+      padding: 23px 0 95px;
+
+      .container{
+        padding: 0 20px;
+        .paragraph{
+          margin: 25px 0 25px 0;
+        }
+      }
+    }
+
+  }
+}
+@media (min-width: 1280px){
+  .wrapper{
+    .main{
+      .header{
+        .container{
+          .bottom{
+            .overlayMenu{
+              ul{
+                li{
+                  &:nth-child(5){
+                    &:after {
+                      background-color: rgba(255, 138, 0, 0.82);
+                    }
+                    &:before{
+
+                      background-color: rgba(255, 138, 0, 0.82);
+                    }
+                  }
+                  &:nth-child(6){
+                    &:after {
+                      background-color: rgba(255, 138, 0, 0.82);
+                    }
+                    &:before{
+
+                      background-color: rgba(255, 138, 0, 0.82);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

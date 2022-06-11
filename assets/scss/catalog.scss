@@ -1,0 +1,60 @@
+.wrapper{
+  .main{
+    .header{
+      background-image: url("../img/hedaderbg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 48px 0 39px;
+    }
+    .section_catalog{
+      padding: 25px 0 39px;
+      .container{
+        padding: 0 20px;
+      }
+      .tabs_block{
+        background: none;
+        padding: 50px 0;
+        .container{
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 1280px){
+  .wrapper{
+    .main{
+      .header{
+        .container{
+          .bottom{
+            .overlayMenu{
+              ul{
+                li{
+                  &:nth-child(5){
+                    &:after {
+                      background-color: rgba(255, 138, 0, 0.82);
+                    }
+                    &:before{
+
+                      background-color: rgba(255, 138, 0, 0.82);
+                    }
+                  }
+                  &:nth-child(6){
+                    &:after {
+                      background-color: rgba(255, 138, 0, 0.82);
+                    }
+                    &:before{
+
+                      background-color: rgba(255, 138, 0, 0.82);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

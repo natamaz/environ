@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Карточка товара</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
+    <link rel="stylesheet" href="css/card.min.css" data-inprogress="">
+    <link rel="stylesheet" href="css/style.min.css" data-inprogress="">
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="main">
+        <!-- Header -->
+        <include src="assets/templates/header.html"></include>
+        <section class=" section section_card">
+            <div class="container">
+                <h2>Камень дракон</h2>
+                <ul class="breadcrumbs">
+                    <li><a href="index.html">Главная</a> </li>
+                    <li><span></span></li>
+                    <li><a href="#"> Продукция</a> </li>
+                    <li><span></span></li>
+                    <li class="active"><a href="#">Малиновый дракон</a></li>
+                </ul>
+                <div class="row_card">
+                    <div class="slider_category">
+                        <div class="slider-for">
+                            <div><img src="img/slide_p1.png" alt=""></div>
+                            <div><img src="img/slide_p2.png" alt=""></div>
+                            <div><img src="img/slide_p1.png" alt=""></div>
+                        </div>
+                        <div class="slider-nav">
+                            <div><img src="img/slide_p1.png" alt=""></div>
+                            <div><img src="img/slide_p2.png" alt=""></div>
+                            <div><img src="img/slide_p1.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="text_category">
+                        <h2>Малиновый дракон</h2>
+                        <div class="calculated tooltip">
+                            <span class="tooltiptext">екстовое описание в пару строк</span>
+                            <div class="row">
+                                <span class="number-actual number-prev"></span>
+                                <p>см</p>
+                                <span class="number-actual number-next"></span>
+                            </div>
+                            <p>от<span class="valueNumber">2.5<strong>см</strong></span></p>
+                        </div>
+                        <div class="sum">
+                            <p>
+                                <strong>9000₽</strong>
+                                1м3
+                            </p>
+                            <a href="#" class="btn"><span></span><strong>ЗАКАЗАТЬ</strong></a>
+                        </div>
+
+                        <div class="tabs_block">
+                            <div id="tabs">
+                                    <ul>
+                                        <li>
+                                            <a href="#tabs-1">
+                                                Описание
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#tabs-2">
+                                                Еще вкладка
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div id="tabs-1">
+                                        <p>
+                                            Это обработанный особым образом камень песчаник. Его нарезают в
+                                            виде продолговатых брусков примерно одинакового размера, что позволяет
+                                            упростить строительные работы. Применяется он для возведения стен,
+                                            отделки цоколя и проведения других отделочных работ.
+                                            7 000
+                                        </p>
+                                    </div>
+                                    <div id="tabs-2">
+                                        <p>
+                                            Это обработанный особым образом камень песчаник. Его нарезают в
+                                            виде продолговатых брусков примерно одинакового размера, что позволяет
+
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- similar_product -->
+        <include src="assets/templates/similar_product.html"></include>
+
+        <!-- section_info -->
+        <include src="assets/templates/section_info.html"></include>
+        <!-- section_form -->
+        <include src="assets/templates/section_form.html"></include>
+
+        <!-- section_work -->
+        <include src="assets/templates/section_work.html"></include>
+
+        <!-- section_accordion -->
+        <include src="assets/templates/section_accordion.html"></include>
+
+        <!-- section_form2 -->
+        <include src="assets/templates/section_form2.html"></include>
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4ab34bf85a30c52ad259806d9e26c361df76fc9ce96aa380bb0ce700cc79c182&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+
+    </div>
+</div>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.responsiveTabs.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
